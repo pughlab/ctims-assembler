@@ -1,0 +1,15 @@
+{
+  "filters": {
+    "maf": {
+      "Variant_Classification": [
+        "Silent",
+        "Intron",
+        "IGR",
+        "3'UTR",
+        "5'UTR",
+        "3'Flank",
+        "5'Flank"
+      ]
+    }
+  }
+}

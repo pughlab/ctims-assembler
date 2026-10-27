@@ -1,0 +1,32 @@
+{
+  "genomic": {
+    "script_input": {
+      "fusion_fp": "../../input/data_fusions.txt",
+      "variants_fp": "../../input/allAnnotatedVariants.txt",
+      "cna_fp": "",
+      "maf_fp": "../../input/data_mutations_extended.txt",
+      "data_sv_fp": "../../input/data_sv.txt",
+      "config_file": "../../input/config.json",
+      "debug_flag": false
+    },
+    "script_output": {
+      "generated_refactored_fp": "../../output/generated_refactored_genomic.csv",
+      "generated_expected_fp": "../../output/generated_original_genomic.csv"
+    },
+    "pre_made_csv_fp": "../../src/tests/test_input/sample_genomic_output.csv"
+
+  },
+  "clinical": {
+    "script_input": {
+      "sample_fp": "../../input/data_clinical_samples.txt",
+      "patient_fp": "../../input/data_clinical_patients.txt",
+      "study_fp": "../../input/meta_study.txt",
+      "debug_flag": false
+    },
+    "script_output": {
+      "generated_refactored_fp": "../../output/generated_refactored_clinical.csv",
+      "generated_expected_fp": "../../output/generated_original_clinical.csv"
+    },
+    "pre_made_csv_fp": "../../src/tests/test_input/sample_clinical_output.csv"
+  }
+}
